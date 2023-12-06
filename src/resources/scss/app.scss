@@ -1,0 +1,70 @@
+@import 'variables';
+
+
+.card-course-item{
+  margin-top: 16px ;
+}
+
+.user-avatar{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 6px;
+}
+
+.modifyPrinting {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.inputModify{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+
+form {
+  background-color: rgb(224, 224, 224);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px; /* Điều chỉnh theo kích thước mong muốn */
+}
+
+form h2 {
+  text-align: center;
+}
+
+.inputModify {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+}
+.btn-primary{
+  margin-left: 15px;
+}
+.btn-primary,
+.btn-danger {
+  flex: 1;
+  margin-top: 10px;
+}
+.sizePage{
+  margin-bottom: 5px;
+}
+
+.sizeLec{
+  margin-left: 15px;
+}
+/* Add additional styling as needed */

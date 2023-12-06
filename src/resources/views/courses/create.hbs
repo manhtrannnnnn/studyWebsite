@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Print Settings</title>
+</head>
+<body class="modifyPrinting">
+  <form action="/courses/store" method="POST">
+    <h2>Chọn thông số in</h2>
+
+    <div>
+      <label for="side">Mặt in: </label>
+      <select id="side" name="side" class="inputModify">
+        <option value="">Chọn mặt in</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+      </select>
+    </div>
+
+    <div>
+      <label for="page_size">Khổ giấy: </label>
+      <select id="page_size" name="page_size" class="inputModify">
+        <option value="">Chọn khổ giấy</option>
+        <option value="A0">A0</option>
+        <option value="A1">A1</option>
+        <option value="A2">A2</option>
+        <option value="A3">A3</option>
+        <option value="A4">A4</option>
+      </select>
+    </div>
+
+    <div>
+      <label for="print_color">Chọn in màu: </label>
+      <select id="print_color" name="print_color" class="inputModify">
+        <option value="">In màu</option>
+        <option value="Có">Có</option>
+        <option value="Không">Không</option>
+      </select>
+    </div>
+
+    <div>
+      <label for="orientation">Chọn hướng in: </label>
+      <select id="orientation" name="orientation" class="inputModify">
+        <option value="">Hướng in</option>
+        <option value="Ngang">Ngang</option>
+        <option value="Dọc">Dọc</option>
+      </select>
+    </div>
+
+    <div>
+      <label for="pages_per_sheet">Số trang trên 1 mặt: </label>
+      <select id="pages_per_sheet" name="pages_per_sheet" class="inputModify">
+        <option value="">Chọn số trang</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+      </select>
+    </div>
+
+
+    <div>
+      <label for="text_size">Kích cỡ chữ: </label>
+      <input type="number" id="text_size" name="text_size" min="8" max="36" class="sizeLec">
+    </div>
+
+    <div class="btn-container">
+      <a href="courses" class="btn btn-danger">Quay lại</a>
+      <button type="submit" class="btn btn-primary">Xác nhận </button>
+    </div>
+  </form>
+</body>
+</html>
